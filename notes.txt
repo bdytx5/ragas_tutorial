@@ -1,0 +1,27 @@
+Ragas notes 
+
+- Make sure to manually export api key 
+
+pip install -U ragas langchain
+pip install unstructured
+brew install libmagic
+pip install --upgrade nltk
+
+code /Users/brettyoung/miniconda3/lib/python3.10/site-packages/ragas/testset/synthesizers/testset_schema.py and removed the # if t.TYPE_CHECKING
+
+
+
+
+
+The demo_eval script evaluates data in the following format 
+
+user_input
+reference
+response
+retrieved_contexts (a list of context passages)
+
+
+
+
+
+the demo_data_gen 
